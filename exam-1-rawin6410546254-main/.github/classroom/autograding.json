@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "student",
+      "setup": "",
+      "run": "python -m doctest docs/student.md",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 15
+    },
+    {
+      "name": "course",
+      "setup": "",
+      "run": "python -m doctest docs/course.md",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 15
+    },
+    {
+      "name": "regis",
+      "setup": "",
+      "run": "python -m doctest docs/regis.md",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 20
+    }
+  ]
+}

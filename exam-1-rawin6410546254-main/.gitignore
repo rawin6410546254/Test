@@ -1,0 +1,6 @@
+*.pyc
+*~
+tmp
+env
+.idea
+solutions
