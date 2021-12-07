@@ -1,14 +1,14 @@
 class QuizControl:
     def __init__(self, question_list):
-        # Write your code here
+        self.question_list = question_list
         pass
 
-    def has_question(self):
-        # Write your code here
+    def has_question(self, question):
+        self.question = question
         pass
 
     def next(self):
-        # Write your code here
+        self.next = next
         pass
 
     # You can create new method as if you want.
